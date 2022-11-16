@@ -1,0 +1,14 @@
+keycloak:
+  realm: facilifarma-realm
+  auth-server-url: http://localhost:8081
+  ssl-required: external
+  resource: facilifarma-client
+  credentials:
+    secret: qtnNCJh20k0Schd8rFyqQ98cuKMpuLuC
+
+  use-resource-role-mappings: true
+  bearer-only: true
+
+#spring:
+#  main:
+#    allow-circular-references: true
